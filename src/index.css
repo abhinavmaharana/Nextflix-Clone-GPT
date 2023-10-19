@@ -1,3 +1,16 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.body {
+    overflow-x: hidden;
+}
+.hide-scrollbar {
+    scrollbar-width: thin; /* For Firefox */
+    scrollbar-color: transparent transparent; /* For Firefox */
+    /* Hide the scrollbar in webkit-based browsers */
+    -webkit-scrollbar-width: thin;
+    -webkit-scrollbar-thumb {
+      background: transparent;
+    }
+  }
